@@ -1,7 +1,13 @@
+import cat from "./assets/kat.png";
+import "./index.css";
 function App() {
 	return (
 		<>
-			<p>Hello world</p>
+			<img
+				src={cat}
+				alt="gato"
+			/>
+			<h1>Jag</h1>
 		</>
 	);
 }
