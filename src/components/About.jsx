@@ -24,7 +24,7 @@ const About = () => {
 				src={picture}
 				alt="A photo of Ludwig"
 				className="w-80 h-80 md:w-90 md:h-90 
-                           rounded-3xl object-cover shadow-xl"
+                           rounded-xl object-cover shadow-xl"
 			/>
 		</div>
 	);
