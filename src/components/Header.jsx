@@ -1,5 +1,3 @@
-import React from "react";
-
 const ScrambleText = ({ text }) => {
 	return (
 		<>
@@ -56,8 +54,28 @@ const Header = () => {
 				<h1
 					className="font-bold text-center 
                                text-[clamp(1.5rem,20vw,17rem)]
+                               
                                group">
-					<ScrambleText text={name} />
+					{name.split("").map((letter, index) => {
+						const isHollow = letter === "G";
+
+						return (
+							<span
+								key={index}
+								className={`
+                                    inline-block transition-transform duration-300 ease-in-out
+                                    group-hover:odd:translate-y-[-0.1em]
+                                    group-hover:even:translate-y-[0.1em]
+                                    ${
+																			isHollow
+																				? "[-webkit-text-fill-color:transparent] [-webkit-text-stroke:2px_currentColor]"
+																				: ""
+																		}
+                                `}>
+								{letter}
+							</span>
+						);
+					})}
 				</h1>
 			</div>
 		</div>
