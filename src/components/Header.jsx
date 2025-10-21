@@ -52,7 +52,7 @@ const Header = () => {
 				</ul>
 			</nav>
 
-			<div className="Name my-10">
+			<div className="Name mt-10">
 				<h1
 					className="font-bold text-center 
                                text-[clamp(1.5rem,20vw,17rem)]
