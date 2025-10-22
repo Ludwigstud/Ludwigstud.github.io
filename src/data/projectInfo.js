@@ -27,14 +27,13 @@ export const myProjects = [
 		githuburl: "https://github.com/Ludwigstud/Bonzai-grupp",
 	},
 	{
-		id: 4,
-		title: "Bulletin Board API",
-		description:
-			"Ett RESTful API för en enkel anslagstavla, liknande Facebook-grupper. Användare kan prenumerera på kanaler för att posta och läsa meddelanden.",
-		tags: ["node", "express", "postgresql"],
-		demourl: null,
-		githuburl: "https://github.com/Ludwigstud/SQL-Bulletin",
-	},
+    "id": 4,
+    "title": "Bulletin Board API",
+    "description": "A RESTful API for a simple bulletin board, similar to Facebook groups. Users can subscribe to channels to post and read messages.",
+    "tags": ["node", "express", "postgresql"],
+    "demourl": null,
+    "githuburl": "https://github.com/Ludwigstud/SQL-Bulletin",
+},
 	{
 		id: 5,
 		title: "Swing Notes API",
@@ -49,7 +48,7 @@ export const myProjects = [
 		title: "AirBean API",
 		description:
 			"A RESTful API for a coffee ordering app concept with drone delivery. Features user accounts, order history, and extensive middleware for input validation.",
-		tags: ["node", "express", "api", "nedb", "middleware"],
+		tags: ["node", "express", "nedb", "middleware"],
 		demourl: null,
 		githuburl: "https://github.com/Ludwigstud/Airbean-API-grupp",
 	},
