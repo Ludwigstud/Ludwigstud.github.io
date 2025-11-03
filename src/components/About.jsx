@@ -7,16 +7,14 @@ const About = () => {
 			id="about">
 			<div className="text-xl text-center md:text-left max-w-lg lg:w-3/5">
 				<p className="mb-6">
-					Web developer from Höganäs, Sweden. I'm a naturally curious person, easily fascinated by
-					how things work. When a new piece of tech catches my eye, I'm the type to dive in
-					headfirst and not come up for air until I've figured it out.
+					I'm Ludwig, a developer from Höganäs. I'm a persistent problem-solver by nature and I
+					enjoy the challenge of architecting a complex idea into a reliable, working application.
 				</p>
 
 				<p>
-					My journey started with the holy trinity (HTML, CSS, & JavaScript), and now I'm building
-					fullstack applications with tools like React, Node.js, and Express. I'm also getting
-					comfortable with SQL databases and cloud services like AWS. I'm just out here trying to
-					build great digital experiences.
+					My go-to technologies for building robust applications are React, Node.js, Express, and
+					both SQL and NoSQL databases, along with cloud platforms like AWS. While this is my
+					current stack, I'm a fast learner and always ready to adopt new tools to fit the project.
 				</p>
 			</div>
 
